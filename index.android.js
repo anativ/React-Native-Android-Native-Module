@@ -20,7 +20,7 @@ class AndroidTest extends Component {
 
     return (
       <View style={styles.container}>
-        <MyImageView src="./react.png" />
+        <MyImageView style={{height:100,width:100}} src="https://facebook.github.io/react/img/logo_og.png" resizeMode="stretch"/>
 
       </View>
     );
